@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Montserrat&family=Poppins:wght@300;400;600;700&family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', 'sans-serif';
+}
+
+body{
+    justify-content: center;
+    align-items: center;
+    background-color: #4ca0e4cc;
+}
+
+.title-container{
+    padding-top: 30px;
+    justify-content: center;
+    text-align: center;
+    font-size: 4rem;
+    font-weight: 600;
+}
+
+.main-container{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.inputs-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 50px;
+}
+
+.text-inputs{
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: .5em;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+}
+
+.text-input{
+    width: 100%;
+    background-color: #f2f2f2;
+    border: #000 solid;
+    border-radius: 5px;
+}
+
+.email{
+    height: 50px;
+}
+.message{
+    height: 200px;
+}
+
+.sub-button{
+    position: relative;
+    top: 115px;
+    width: 85px;
+    height: auto;
+    font-size: 2em;
+    text-decoration: none;
+    margin-left: 20px;
+    text-align: center;
+    background-color: #f2f2f2;
+    border: #000 solid;
+    border-radius: 5px;
+    color: #000;
+}
+
+footer{
+    justify-content: center;   
+    align-items:center;
+}
+
+.footer-container{
+    float: right;
+    font-weight: 300;
+    font-size: 1.5rem;
+    margin-top: 100px;
+    margin-right: 10px;
+}
